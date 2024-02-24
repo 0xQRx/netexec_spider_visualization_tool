@@ -34,8 +34,8 @@ sudo apt install -y nodejs
 Clone the repository to your local machine and install the necessary dependencies:
 
 ```
-git clone https://github.com/yourusername/netexec-spider-visualization-tool.git
-cd netexec-spider-visualization-tool
+git clone https://github.com/0xQRx/netexec_spider_visualization_tool.git
+cd netexec_spider_visualization_tool
 npm install
 ```
 
