@@ -49,16 +49,15 @@ node server.js
 
 Access the web-based UI by navigating to http://localhost:3000 in your web browser.
 
-#### Docker
+#### Installing Docker on Kali Linux
 
-Installing Docker on Kali Linux
 To install Docker, use the following one-liner:
 
 ```
 sudo apt update && sudo apt install -y docker.io && sudo systemctl enable docker --now && sudo usermod -aG docker $USER
 ```
 
-> Note: After running the Docker installation command, you may need to log out and log back in for the group change to take effect, or you can run `newgrp docker` in the terminal.
+> Note: After running the Docker installation command, you may need to log out and log back in for the group change to take effect.
 
 #### Building and Running with Docker
 
